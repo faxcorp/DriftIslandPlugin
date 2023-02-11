@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"EngineVersion": "4.27",
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DriftIslandPlugin",
+	"Description": "Plugin contains nodes for the spline mesh generation and stuff",
+	"Category": "Spline",
+	"CreatedBy": "f4x",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/41daf2bb08664a4f9fbda6bae5d38eeb",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DriftIslandPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			],
+			"BlacklistPlatforms": [
+				"Linux",
+				"Mac",
+				"IOS",
+				"Android"
+			]
+		}
+	]
+}
