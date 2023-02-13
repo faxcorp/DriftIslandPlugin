@@ -27,11 +27,19 @@ Blueprint Library Function Nodes:
 
 
 To see how to use the blueprints, open up example map from the plugins content folder
+
 ![image](https://user-images.githubusercontent.com/37246339/218529202-2f69b2cf-755e-4da0-866d-8542fbb8354f.png)
+
 The splines to generate stuff from are placed into the level (name is important as the procedural spawners will use the name to find it)
+
 ![image](https://user-images.githubusercontent.com/37246339/218529422-c2ee1b73-51a1-4c26-9b5c-e191c297f219.png)
+
 BP_IslandMultiSplineMeshMakerCPP is the actor that you place into the level that has information about the spawner
+
 ![image](https://user-images.githubusercontent.com/37246339/218529613-e51e8ccd-3775-407c-b02e-a80b41fff518.png)
+
 IslandManager actor handles the spawning (has to keep track of splines used so multiple objects dont get generated on top of each other)
+
 ![image](https://user-images.githubusercontent.com/37246339/218529846-e9a33a11-e75b-4955-8998-d05769fe59af.png)
+
 
