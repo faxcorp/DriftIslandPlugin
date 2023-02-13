@@ -1,5 +1,6 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
 // f4x 2023
+// Copyright Epic Games, Inc. All Rights Reserved.
+
 #include "DriftIslandPlugin.h"
 
 #define LOCTEXT_NAMESPACE "FDriftIslandPluginModule"
