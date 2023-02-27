@@ -15,28 +15,25 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
 	"Modules": [
 		{
 			"Name": "DriftIslandPlugin",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"PlatformAllowList": [
-				"Win64"
-			],
-			"PlatformDenyList": [
-				"Linux",
-				"IOS",
-				"Mac",
-				"Android"
-			],
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [],
 			"WhitelistPlatforms": [
-				"Win64"
+				"Win64",
+				"Win32"
 			],
-			"BlacklistPlatforms": [
-				"Linux",
-				"IOS",
-				"Mac",
-				"Android"
+			"PlatformAllowList": [
+				"Win64",
+				"Win32"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
 			]
 		}
 	]
