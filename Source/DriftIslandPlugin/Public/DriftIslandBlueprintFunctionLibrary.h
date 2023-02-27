@@ -2,12 +2,9 @@
 
 #pragma once
 
-#include "Components/StaticMeshComponent.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "Components/SplineComponent.h"
-#include "Components/SplineMeshComponent.h"
 #include "CoreMinimal.h"
-#include "UObject/ObjectMacros.h"
-#include "Rendering/PositionVertexBuffer.h"
 #include "DriftIslandBlueprintFunctionLibrary.generated.h"
 
 UCLASS()

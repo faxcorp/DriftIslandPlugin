@@ -1,11 +1,19 @@
 // f4x 2023
 
+
 #include "DriftIslandSplineMeshActorCPP.h"
-#include "DriftIslandBlueprintFunctionLibrary.h"
+#include "Engine/StaticMesh.h"
 #include "Components/SplineComponent.h"
-#include "Components/StaticMeshComponent.h"
 #include "Components/SplineMeshComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "Engine/World.h"
+#include "Engine/Engine.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "Kismet/KismetArrayLibrary.h"
 #include "MeshVertexPainter/MeshVertexPainter.h"
+
+
 
 ADriftIslandSplineMeshActorCPP::ADriftIslandSplineMeshActorCPP()
 {

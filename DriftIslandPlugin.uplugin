@@ -12,15 +12,29 @@
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/60e239d3575243789469731e71e74869",
 	"SupportURL": "",
 	"CanContainContent": true,
-	"Installed": true,
-	"SupportedTargetPlatforms": [ "Win64"],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
 	"Modules": [
 		{
 			"Name": "DriftIslandPlugin",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [	"Win64" ],
-			"PlatformAllowList" : [ "Win64" ]
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [],
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			],
+			"PlatformAllowList": [
+				"Win64",
+				"Win32"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }

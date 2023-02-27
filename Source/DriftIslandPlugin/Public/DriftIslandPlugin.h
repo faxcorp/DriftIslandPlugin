@@ -3,8 +3,8 @@
 
 #pragma once
 
+#include "Modules/ModuleInterface.h"
 #include "CoreMinimal.h"
-#include "Modules/ModuleManager.h"
 
 class FDriftIslandPluginModule : public IModuleInterface
 {

@@ -2,13 +2,6 @@
 
 #include "DriftIslandBlueprintFunctionLibrary.h"
 #include "Components/SplineComponent.h"
-#include "Components/SplineMeshComponent.h"
-#include "Algo/Reverse.h"
-#include "MeshVertexPainter/MeshVertexPainter.h"
-#include "Components.h"
-#include "StaticMeshResources.h"
-#include "Rendering/PositionVertexBuffer.h"
-#include "Engine/StaticMesh.h"
 
 void UDriftIslandBlueprintFunctionLibrary::DestroyAllComponentsExcept(AActor *Actor, TArray<USceneComponent *> ComponentsToKeep)
 {
