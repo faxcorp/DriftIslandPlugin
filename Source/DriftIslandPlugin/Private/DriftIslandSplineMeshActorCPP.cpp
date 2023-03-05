@@ -2,16 +2,11 @@
 
 
 #include "DriftIslandSplineMeshActorCPP.h"
-#include "Engine/StaticMesh.h"
-#include "Components/SplineComponent.h"
+#include "DriftIslandBlueprintFunctionLibrary.h"
 #include "Components/SplineMeshComponent.h"
-#include "Components/StaticMeshComponent.h"
-#include "Engine/World.h"
-#include "Engine/Engine.h"
-#include "Kismet/KismetMathLibrary.h"
-#include "Kismet/KismetSystemLibrary.h"
-#include "Kismet/KismetArrayLibrary.h"
 #include "MeshVertexPainter/MeshVertexPainter.h"
+#include "Components/StaticMeshComponent.h"
+#include "Engine/StaticMesh.h"
 
 
 

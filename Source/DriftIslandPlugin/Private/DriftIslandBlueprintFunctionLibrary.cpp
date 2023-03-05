@@ -1,7 +1,8 @@
 // f4x 2023
 
 #include "DriftIslandBlueprintFunctionLibrary.h"
-#include "Components/SplineComponent.h"
+
+
 
 void UDriftIslandBlueprintFunctionLibrary::DestroyAllComponentsExcept(AActor *Actor, TArray<USceneComponent *> ComponentsToKeep)
 {

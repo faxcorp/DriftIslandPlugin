@@ -3,6 +3,7 @@
 
 #pragma once
 
+#include "Engine.h"
 #include "Modules/ModuleInterface.h"
 #include "CoreMinimal.h"
 
