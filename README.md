@@ -1,5 +1,11 @@
 Get it on the Unreal Engine Marketplace https://www.unrealengine.com/marketplace/en-US/product/60e239d3575243789469731e71e74869
 
+This plugin contains nodes to work with splines, spline meshes, static meshes and such. I created these nodes because procedurally spawning lots of stuff on splines via blueprints is impossible, so I had to transfer the code that is very slow on BP to CPP.
+
+You can do the same thing with blueprints but if you have ~300 splines for example, blueprints hang the editor since there are many many iterations for every point of every spline and this plugin eliminates that blueprint bottleneck allowing to quickly do spline meshes and stuff for hundreds of splines.
+
+---
+
 CPP Spline Mesh Actor Function Nodes:
 
 - CreateSplineMeshes is a BlueprintCallable function in the "DriftIsland" category of Unreal Engine. It takes in several inputs including a USplineComponent pointer InputSpline, an AActor pointer ParentActor, two arrays of UStaticMesh pointers MeshesForSplines and MeshesForPosts, and several integers and floats for various parameters. The function outputs two arrays of pointers OutStaticMeshesPosts and OutSplineMeshes of UStaticMeshComponent and USplineMeshComponent respectively.
