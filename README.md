@@ -29,7 +29,7 @@ Blueprint Library Function Nodes:
 
 - FindNearestActorToLocation: This function is a blueprint callable function that belongs to the "DriftIsland" category. It has a display name of "Find Nearest Actor To Location". This function takes a list of actors and a location as inputs and returns the actor closest to the specified location.
 
-- ReverseSplinesToLookTowardsRoad: This function is a blueprint callable function that belongs to the "DriftIsland" category. It has a display name of "Reverse Splines To Look Towards Road". This function takes two lists of splines as inputs and reverses the direction of the splines in the first list so that they face towards the splines in the second list. The function also has a boolean input that determines whether to reverse all splines in the first list.
+- ReverseSplinesToLookTowardsRoad: This function is a blueprint callable function that belongs to the "DriftIsland" category. It has a display name of "Reverse Splines To Look Towards Road". This function takes two lists of splines as inputs and reverses the direction of the splines in the first list (just adds tag "Reversed") so that they face towards the splines in the second list. The function also has a boolean input that determines whether to reverse all splines in the first list.
 
 - IsWithinDistanceOfPositions: This function is a blueprint callable function that belongs to the "DriftIsland" category. It has a display name of "Is Within Distance Of Positions". This function takes a list of positions, a distance, and a location as inputs and returns a boolean value indicating whether the specified location is within the specified distance of any of the positions in the list.
 
