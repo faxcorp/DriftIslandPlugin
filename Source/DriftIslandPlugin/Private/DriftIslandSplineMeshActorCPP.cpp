@@ -6,6 +6,7 @@
 #include "Components/SplineMeshComponent.h"
 #include "MeshVertexPainter/MeshVertexPainter.h"
 #include "Components/StaticMeshComponent.h"
+#include "Engine/World.h"
 #include "Engine/StaticMesh.h"
 
 

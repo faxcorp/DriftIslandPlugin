@@ -2,6 +2,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "DriftIslandPlugin.h"
+#include "Modules/ModuleManager.h" 
 
 #define LOCTEXT_NAMESPACE "FDriftIslandPluginModule"
 
